@@ -1,0 +1,34 @@
+tf - text format
+
+<div class="hero_2">
+  <div class="hero_3">
+    <div>
+      <img src="/B11A1--assignment-1/assets/card-icon.png" alt="icon1" />
+    </div>
+    <div>
+      <h4>Innovation</h4>
+    </div>
+  </div>
+  <div>
+    <p>Hello Bangladesh 1.</p>
+  </div>
+</div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+<div>
+  <div class="intelligence_icon">
+    <img src="/B11A1--assignment-1/assets/card-icon.png" alt="icon1" />
+  </div>
+  <div>
+    <h4 class="tf_5">Innovation</h4>
+  </div>
+  <div>
+    <p class="tf_6">Hello Bangladesh 1.</p>
+  </div>
+</div>
+<!--     -->
+<!--  -->
+<!--  -->
