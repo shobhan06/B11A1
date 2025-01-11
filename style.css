@@ -32,6 +32,44 @@ body {
   width: 622px;
   opacity: 1;
 }
+
+
+
+/* sign in button */
+.sign_btn{
+  /* background-color: transparent; */
+  width: 116px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 15px 30px 15px 30px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+}
+.sign_btn_txt{
+  color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
 /* explore new bd */
 button.tf_3 {
   background-color: #006a50;
@@ -41,6 +79,7 @@ button.tf_3 {
   border-radius: 8px;
   opacity: 1;
 }
+
 .tf_3 {
   color: #ffffff;
   font-family: "Fira Sans", serif;
@@ -109,19 +148,16 @@ button.tf_3 {
 .tf_9 {
 }
 
-nav.nav {
-  background-color: #f5f5f5;
+/* start: nav */
+nav#navbar{
+  background-color: #F5F5F5;
+  /* background-color: tomato; */
   height: 100px;
   width: 1600px;
-  margin: 0;
-  padding: 0;
-  /* display: flex; */
-}
-nav > ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 24px 160px 24px 160px;
+  justify-content: space-between;
+}
 
   /* height: 50px;
   display: flex;
@@ -130,7 +166,7 @@ nav > ul {
   justify-content: space-between;
   /* padding: 0 24px 24px 0; */
   /* padding: 0 160px; */
-  margin-bottom: 20px; */
+  /* mrgin-bottom: 20px; */
 }
 
 /* banner  */

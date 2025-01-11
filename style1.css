@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav#navbar {
+  background: rgb(245, 245, 245);
+  /* Frame 2 */
+  position: absolute;
+  width: 1600px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 160px 24px 160px;
+}
+.tf_8 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
