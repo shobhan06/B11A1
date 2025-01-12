@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 nav#navbar {
-  background: rgb(245, 245, 245);
   /* Frame 2 */
   position: absolute;
   width: 1600px;
@@ -17,8 +16,88 @@ nav#navbar {
   justify-content: space-between;
   align-items: center;
   padding: 24px 160px 24px 160px;
+
+  background: rgb(245, 245, 245);
 }
+/* signIN  */
+.tf_3 {
+  /* Sign In */
+  position: static;
+  width: 56px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 15px 30px 15px 30px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  /* Sign In */
+  position: static;
+  width: 56px;
+  height: 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 15px 30px 15px 30px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+button.sign_btn {
+  /* Frame 2 */
+  position: static;
+  width: 116px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 15px 30px 15px 30px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+}
+
 .tf_8 {
+  /* Bangladesh 2.0 */
+  position: static;
+  width: 222px;
+  height: 38px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 24px 160px 24px 160px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 32px;
@@ -26,4 +105,196 @@ nav#navbar {
   line-height: 38px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+div.main_frame {
+  /* Frame 2087325624 */
+  position: absolute;
+  width: 1600px;
+  height: 5181px;
+  left: 0;
+  top: 120px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80;
+  padding: 0px;
+}
+.frameBangladesh2_0 {
+  /* Frame 4 */
+  position: static;
+  width: 1280px;
+  height: 560px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 80px 0px;
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+}
+.textBanner {
+  /* Frame 3 */
+  position: static;
+  width: 622px;
+  height: 324px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 64px;
+}
+.textBannerOne {
+  /* Frame 2087325503 */
+  position: static;
+  width: 622px;
+  height: 245px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.tf_1 {
+  /* Bangladesh 2.0 */
+  position: static;
+  width: 622px;
+  height: 28px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.tf_2 {
+  /* Idea , innovation , vision and challenges in New Bangladesh. */
+  position: static;
+  width: 622px;
+  height: 201px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.textBannerTwo {
+  /* Frame 2 */
+  position: static;
+  width: 259px;
+  height: 55px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  padding: 17px 34px 17px 34px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+}
+.tf_3_1 {
+  /* Explore New Bangladesh */
+  position: static;
+  width: 191px;
+  height: 21px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  padding: 17px 34px 17px 34px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 48px;
+
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.photoBanner {
+  /* Group 1 */
+  position: static;
+  width: 474.03px;
+  height: 400px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 64px;
 }

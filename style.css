@@ -169,21 +169,116 @@ nav#navbar{
   /* mrgin-bottom: 20px; */
 }
 
-/* banner  */
-#section_1 {
+banner  */
+ /* #section_1 {
   background-color: #c6e4d6;
-  /* margin: 0 160px 20px 160px; */
+
   display: flex;
   padding: 80px 0 80px 0;
   align-items: center;
 }
 #section_1 > div:nth-child(1) {
   display: flex;
-  /* background-color: tomato; */
+
   flex-direction: column;
   gap: 20px;
-}
+} 
 
+
+/* banner_two  */
+
+section#section_1 {
+  /* Frame 4 */
+  position: static;
+  width: 1280px;
+  height: 560px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 80px 0px;
+
+  /* style */
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+}
+.bannertext {
+  /* Frame 3 */
+  position: static;
+  width: 622px;
+  height: 324px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 64px;
+}
+.bannertitle {
+  width: 622px;
+  height: 245px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+.bannertext > .explorebutton {
+  width: 259px;
+  height: 55px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  padding: 17px 34px 17px 34px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+}
+.bannerPhoto {
+  /* Group 1 */
+  position: static;
+  width: 474.03px;
+  height: 400px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 64px;
+}
 /* donate */
 /* news  */
 /* newsletter */
