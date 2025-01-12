@@ -4,136 +4,385 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #f5f5f5;
+  background: rgb(245, 245, 245);
+  width: 1600px;
 }
-/*shared style  */
-/* #btn_txt{
 
-} */
+/* start: banner */
+.banner {
+  margin: 20px 160px 80px 160px;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-/* Body section bangladesh 2.0 */
-.tf_1 {
-  color: #0e0e0e;
-  opacity: 0.5;
-  font-family: "Fira Sans", serif;
-  font-weight: 500;
-  font-style: normal;
+  /* padding-right: 16px; */
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.subtitle {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
   font-size: 24px;
-  height: 28px;
-  width: 622px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-/* idea, innovation */
-.tf_2 {
-  font-family: "Fira Sans", serif;
-  font-weight: 700px;
-  font-style: normal;
+div.content > h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
   font-size: 56px;
-  height: 201px;
-  width: 622px;
-  opacity: 1;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-
-
-
-/* sign in button */
-.sign_btn{
-  /* background-color: transparent; */
-  width: 116px;
-height: 52px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 10;
-padding: 15px 30px 15px 30px;
-box-sizing: border-box;
-border: 1px solid rgb(0, 106, 80);
-border-radius: 8px;
-}
-.sign_btn_txt{
-  color: rgb(0, 106, 80);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
-}
-
-
-
-
-
-
-
-
-
-
-/* explore new bd */
-button.tf_3 {
-  background-color: #006a50;
-  height: 55px;
-  width: 259px;
-  border: 0 none;
+.cta-button {
   border-radius: 8px;
-  opacity: 1;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+  padding: 14px 31px 14px 31px;
 }
 
-.tf_3 {
-  color: #ffffff;
-  font-family: "Fira Sans", serif;
-  font-weight: 600px;
-  font-style: normal;
-  font-size: 17px;
-  height: 21px;
-  width: 191px;
+/* end: banner */
+/* start:vision  */
+
+.vision-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-between;
+
+  gap: 15px;
+
+  border-radius: 24px;
 }
-/* pillars of bd */
-.tf_4 {
-  color: #0e0e0e;
-  opacity: 1;
-  font-family: "Fira Sans", serif;
-  font-weight: 700px;
-  font-style: normal;
+
+.section-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
   font-size: 40px;
-  width: 1280px;
-  height: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-/* innovation */
-.tf_5 {
-  color: #0e0e0e;
-  opacity: 0.8;
-  font-family: "Fira Sans", serif;
-  font-weight: 700px;
-  font-style: normal;
-  font-size: 20px;
-  width: 254px;
-  height: 24px;
-}
-/* description_ dolor sit  */
-.tf_6 {
-  color: #0e0e0e;
-  opacity: 0.7;
-  font-family: "Fira Sans", serif;
-  font-weight: 400px;
-  font-style: normal;
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
   font-size: 16px;
-  width: 254px;
-  height: 72px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-/* chief advisor  */
-.tf_7 {
-  color: #0e0e0e;
-  opacity: 0.8;
-  font-family: "Fira Sans", serif;
-  font-weight: 600px;
-  font-style: normal;
+.cards-container {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 24px;
+}
+.card {
+  /* background: tomato; */
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-content: space-between;
+  gap: 8px;
+}
+.blue-card {
+  background: rgba(84, 144, 245, 0.2);
+}
+.green-card {
+  background: rgb(198, 228, 214);
+}
+.yellow-card {
+  background: rgb(247, 235, 207);
+}
+.learn-more {
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  background: rgb(84, 144, 245);
+
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0 70px 0 0;
+  padding: 11px 20px 11px 20px;
+}
+.light {
+  /* position: absolute; */
+  width: 62px;
+  height: 62px;
+  left: 1px;
+  top: 1px;
+}
+
+.card h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
   font-size: 20px;
-  width: 1232px;
-  height: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-/* Bangladesh Launches New Satellite */
+.card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* end: vision  */
+
+/* start: Quote  */
+.quote-box {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  /* align-content: space-evenly; */
+
+  gap: 25px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+  padding: 35px 24px 48px 24px;
+
+  background-image: url("/asset/quote-bg.png");
+
+  background-size: contain;
+  background-size: 5%;
+
+  /* background-image: 50px 25px; */
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.quote-bg {
+  /* background-color: tomato; */
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.quote-text {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.author {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.designation {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* end: Quote  */
+
+/* start: News */
+.news-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-between;
+
+  gap: 32px;
+
+  border-radius: 24px;
+}
+/* end: News */
+.news-card {
+  display: flex;
+
+  padding: 48px;
+  gap: 32px;
+  /* justify-content: space-between; */
+  border-radius: 24px;
+
+  background: rgb(255, 255, 255);
+}
+.news-image {
+  border-radius: 24px;
+
+  background: url(image);
+}
+.news-content {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* start: donation  */
+.donate-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+
+  border-radius: 24px;
+}
+.donation-button {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  margin-left: 24px;
+}
+.custom-amount {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  /* background-color: tomato; */
+  margin: 32px;
+}
+.custom-amount-style {
+  /* background-color: tomato; */
+  /* style */
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 20px 375px 20px 375px;
+}
+
+/* end : donation */
+
+/* start: newsletter */
+.newsletter-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+
+  gap: 20px;
+
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+}
+.newsletter-section > h1 {
+  margin-top: 20px;
+}
+.newsletter-section > p {
+  margin-bottom: 20px;
+}
+.newsletter-section > form > div > input {
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+  padding: 18px 40px 18px 40px;
+  margin-right: 466px;
+  margin-top: 2px;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.newsletter-section > form > div > button {
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+}
+.custom-email-style {
+  display: flex;
+  background-color: white;
+}
+
+/* end : newsletter  */
+
+/* start: navbar */
+#navbar {
+  background-color: #f5f5f5;
+  /* background-color: tomato; */
+  height: 100px;
+  width: 1600px;
+  display: flex;
+  padding: 24px 160px 24px 160px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
 .tf_8 {
   color: #0e0e0e;
   opacity: 0.8;
@@ -141,157 +390,24 @@ button.tf_3 {
   font-weight: 700;
   font-style: normal;
   font-size: 32px;
-  width: 744px;
-  height: 38px;
-}
-/* alzazeera */
-.tf_9 {
 }
 
-/* start: nav */
-nav#navbar{
-  background-color: #F5F5F5;
-  /* background-color: tomato; */
-  height: 100px;
-  width: 1600px;
+/* end: navbar  */
+
+/* start: footer */
+footer {
+  /* margin: 80px 160px 80px 160px; */
   display: flex;
-  padding: 24px 160px 24px 160px;
-  justify-content: space-between;
-}
-
-  /* height: 50px;
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-  /* padding: 0 24px 24px 0; */
-  /* padding: 0 160px; */
-  /* mrgin-bottom: 20px; */
-}
-
-banner  */
- /* #section_1 {
-  background-color: #c6e4d6;
-
-  display: flex;
-  padding: 80px 0 80px 0;
-  align-items: center;
-}
-#section_1 > div:nth-child(1) {
-  display: flex;
-
   flex-direction: column;
-  gap: 20px;
-} 
 
-
-/* banner_two  */
-
-section#section_1 {
-  /* Frame 4 */
-  position: static;
-  width: 1280px;
-  height: 560px;
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  align-content: space-around;
+  /* justify-content: center; */
   align-items: center;
-  gap: 64;
-  padding: 80px 100px 80px 100px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 80px 0px;
-
-  /* style */
+  gap: 10px;
   border-radius: 24px;
-
-  background: rgb(198, 228, 214);
+  background: white;
 }
-.bannertext {
-  /* Frame 3 */
-  position: static;
-  width: 622px;
-  height: 324px;
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 24;
-  padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 64px;
+footer > div > h4 {
+  margin-top: 20px;
 }
-.bannertitle {
-  width: 622px;
-  height: 245px;
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16;
-  padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 24px 0px;
-}
-.bannertext > .explorebutton {
-  width: 259px;
-  height: 55px;
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 48;
-  padding: 17px 34px 17px 34px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 24px 0px;
-  border-radius: 8px;
-
-  background: rgb(0, 106, 80);
-}
-.bannerPhoto {
-  /* Group 1 */
-  position: static;
-  width: 474.03px;
-  height: 400px;
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 64px;
-}
-/* donate */
-/* news  */
-/* newsletter */
-/* quotes */
-/* vision  */
-section.vision {
-  display: flex;
-  flex-direction: column;
-}
-section .vision_article {
-  display: flex;
-}
-section .quote_section {
-  display: flex;
-  flex-direction: column;
-}
+/* end: footer */
