@@ -308,6 +308,22 @@ div.content > h1 {
   background: rgb(255, 255, 255);
   padding: 20px 375px 20px 375px;
 }
+.donation-button:hover {
+  /* background-color: #f0f8f5;
+  border-color: #007b3a; */
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(198, 228, 214);
+}
+.donation-button.active {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(198, 228, 214);
+}
 
 /* end : donation */
 
